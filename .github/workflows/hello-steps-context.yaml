@@ -6,9 +6,4 @@ jobs:
   context_step_test:
     runs-on: ubuntu-24.04
     steps:
-      - run: echo "OS: ${{runner.os}}"
-
-  # python_v:
-  #   runs-on: ubuntu-24.04
-  #   steps:
-  #     - run: python3 --version
+      - run: echo "OS: ${{ runner.os }}"
