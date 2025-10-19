@@ -6,7 +6,7 @@ jobs:
   context_step_test:
     runs-on: ubuntu-24.04
     steps:
-      - run: echo "Rep: ${{github.repository}}"
+      - run: echo "Rep: ${{ github.repository }}"
       - run: echo "OS: ${{runner.os}}"
 
   python_v:
