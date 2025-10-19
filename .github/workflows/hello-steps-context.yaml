@@ -8,7 +8,7 @@ jobs:
     steps:
       - run: echo "OS: ${{runner.os}}"
 
-  python_v:
-    runs-on: ubuntu-24.04
-    steps:
-      - run: python3 --version
+  # python_v:
+  #   runs-on: ubuntu-24.04
+  #   steps:
+  #     - run: python3 --version
