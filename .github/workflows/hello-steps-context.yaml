@@ -6,4 +6,4 @@ jobs:
   context_step_test:
     runs-on: ubuntu-24.04
     steps:
-      - run: echo "OS: ${{ runner.os }}"
+      - run: echo "teste"
