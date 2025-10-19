@@ -7,3 +7,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - run: echo "teste"
+
+  pyhthon_v:
+    steps:
+      - run: python3 --version
